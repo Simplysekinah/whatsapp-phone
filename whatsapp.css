@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.iphone{
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    border: 10px solid black;
+    border-top-width: 10px;
+    border-radius: 40px;
+    position: relative;
+}
+.sig{
+    width: 150px;
+    height: 22px;
+    background-color: black;
+    margin-left: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.sga{
+    width: 50px;
+    height: 5px;
+    background-color: dimgrey;
+    margin-left: 120px;
+    margin-top: -15px;
+}
+.sgi{
+    height: 7px;
+    width: 7px;
+    background-color: dimgrey;
+    border-radius: 100px;
+    margin-top: -6px;
+    margin-left: 180px;
+    color: white;
+}
+.time{
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.tsw{
+    display: flex;
+    justify-content: space-between;
+}
+.swb{
+    margin-top: -20px;
+    margin-left: 225px;
+}
+.icofont-battery-full{
+    margin-right: 10px;
+}
+.edi{
+    display: flex;
+    justify-content: space-between;
+}
+.icofont-edit{
+    margin-right: 10px;
+}
+.icofont-camera{
+    margin-left: 10px;
+}
+.edit{
+    margin-left: 10px;
+}
+.cha{
+    font-weight: bold;
+    font-size: 30px;
+}
+.sea{
+    background-color: gainsboro;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+input{
+    outline: none;
+    border: 0;
+    height: 10px;
+    background-color:gainsboro ;
+    width: 200px;
+}
+.res{
+    display: flex;
+}
+.icofont-dotted-down{
+    font-size: 30px;
+    color: mediumblue;
+}
+.bro{
+    display: flex;
+    justify-content: space-between;
+}
+.br{
+    margin-left: 5px;
+}
+.ne{
+    margin-right: 5px;
+}
+.log{
+    border-radius: 100%;
+    height: 50px;
+}
+.mad{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 10px;
+    gap: 35px;
+    padding: 0px 10px;
+}
+.sma{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* margin-top: -10px; */
+    gap: 25px;
+}
+.sma-div{
+    margin-top: -20px;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.am{
+    /* margin-top: -20px; */
+}
+.tim{
+    /* margin-left: 200px; */
+    /* margin-top: 20px; */
+}
+.h{
+    margin-top: 30px;
+}
+.brs{
+    background-color: whitesmoke;
+    height: 50px;
+    /* width: 300px; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 10px 2px 10px;
+    /* position: fixed; */
+    /* bottom: 0%; */
+}
+.main{
+    display: block;
+    position: absolute; 
+    top: -520px;
+    right: -250%;
+    width: 280px;
+    background-color: white;
+    /* height: 400px;
+    /* background-color: blue; */
+}
+.main1,.main2,.main3,.main4{
+    display: none;
+    position: absolute; 
+    top: -520px;
+    right: 0%;
+    width: 300px;
+    background-color: white;
+    /* height: 400px;
+    /* background-color: blue; */
+}
+.one:focus-within .main2,.main3,.main,.main4{
+    display: none;
+}
+.two:focus-within .main,.main1,.main3,.main4{
+    display: none;
+}
+.three:focus-within .main,.main2,.main1,.main4{
+    display: none;
+}
+.four:focus-within .main1,.main2,.main3,.main4{
+    display: none;
+}
+.five:focus-within .main,.main2,.main3,.main1{
+    display: none;
+}
+.one:focus-within .main1{
+    display: block;
+}
+.two:focus-within .main2{
+    display: block;
+}
+.three:focus-within .main3{
+    display: block;
+}
+.four:focus-within .main{
+    display: block;
+}
+.five:focus-within .main4{
+    display: block;
+}
+.one{
+    font-size: 10px;
+    /* margin-left: 15px; */
+    /* margin-top: 5px; */
+}
+.icofont-spinner-alt-4{
+    font-size: 20px;
+}
+.two{
+    font-size: 10px;
+    /* margin-top: 5px; */
+}
+.icofont-ui-call{
+    font-size: 20px;
+}
+.three{
+    font-size: 10px;
+    /* margin-top: 5px; */
+}
+.icofont-tools-bag{
+    font-size: 20px;
+}
+.four{
+    font-size: 10px;
+    position: relative;
+    /* margin-top: 5px; */
+}
+.icofont-chat{
+    font-size: 20px;
+}
+.five{
+    font-size: 10px;
+    /* margin-right: 15px; */
+    /* margin-top: 5px; */
+}
+.icofont-settings-alt{
+    font-size: 20px;
+}
+.down{
+    height: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    left: 47%;
+    margin-top: 20px;
+}
+.down-div{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.over{
+    height: 420px;
+    overflow-y: scroll;
+}
+.over1{
+    height: 435px;
+    overflow-y: scroll;
+}
+.over::-webkit-scrollbar, .over1::-webkit-scrollbar{
+    display: none;
+}
+.divide{
+    display: flex;
+    align-items: center;
+    /* margin-top: -20px; */
+}
